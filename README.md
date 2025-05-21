@@ -1,30 +1,22 @@
-# ⏰ SentinelaNoturno
+# 🛡️ Sistema de Monitoramento Noturno - Protector Serviço Segurança 
 
-Sistema de monitoramento automatizado para validar a atenção dos operadores de câmeras durante o turno da madrugada.
+Este projeto é um sistema de verificação de atenção para monitores noturnos, utilizado pela empresa **Protector Serviços de Segurança**. A aplicação emite um alerta sonoro aleatório em determinados horários e exige uma resposta rápida dos colaboradores.
 
-## 📌 Objetivo
+## 🔧 Tecnologias utilizadas
 
-Garantir que os monitoradores de segurança estejam acordados e atentos entre 00h00 e 06h00, com check-ins a cada 15 minutos.
+- `Python 3.x`
+- `tkinter` - Interface gráfica
+- `pygame` - Alarme sonoro
+- `yagmail` - Envio automático de e-mails
+- `csv` - Registro de relatórios
 
+## ✅ Funcionalidades
+
+- Alarme sonoro tocando até o monitor responder
+- Interface gráfica com pergunta de verificação
+- Registro automático de data, hora, nome, resposta e tempo de reação
+- Geração de relatório `.csv`
+- Envio automático de e-mail com o resumo e anexo
+- 
 ---
-
-## 👨‍💻 Funcionalidades
-
-- Toca alerta sonoro a cada 15 minutos (entre 00h e 06h).
-- Abre janela para o monitor responder uma pergunta simples.
-- Limite de 1 minuto para responder.
-- Validação de identidade (nome) e verificação de resposta.
-- Geração automática de relatório `.csv`.
-- Envio automático por e-mail ao final do turno.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- `Python 3`
-- `Tkinter` (interface gráfica)
-- `Pygame` (alerta sonoro)
-- `CSV` (relatórios)
-- `Yagmail` (envio de e-mail)
-
----
+© 2025 | Projeto interno - uso exclusivo da Protector Serviços de Segurança.
