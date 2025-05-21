@@ -1,6 +1,8 @@
 # 🛡️ Sistema de Monitoramento Noturno - Protector Serviço Segurança 
 
-Este projeto é um sistema de verificação de atenção para monitores noturnos, utilizado pela empresa **Protector Serviços de Segurança**. A aplicação emite um alerta sonoro aleatório em determinados horários e exige uma resposta rápida dos colaboradores.
+Este projeto foi desenvolvido para a Protector Serviços de Segurança com o objetivo de garantir a vigilância ativa dos operadores de monitoramento noturno. A aplicação emite alertas sonoros em intervalos aleatórios entre 00h00 e 06h00, forçando uma resposta rápida por parte do colaborador.
+
+O sistema visa evitar que os funcionários adormeçam durante o turno, garantindo que os profissionais responsáveis pelo monitoramento das câmeras estejam atentos e em plena atividade durante toda a madrugada.
 
 ## 🔧 Tecnologias utilizadas
 
@@ -21,6 +23,10 @@ Este projeto é um sistema de verificação de atenção para monitores noturnos
 ---
 ## 🖼️ Preview do Sistema
 
-<img src="print.jpg" alt="" width="400"/>
-<img src="print2.jpg" alt="" width="400"/>
-<img src="print3.jpg" alt="" width="400"/>
+<p align="center">
+  <img src="print.jpg" width="400"/>
+  <img src="print2.jpg" width="400"/>
+</p>
+<p align="center">
+  <img src="print3.jpg" width="400"/>
+</p>
