@@ -23,7 +23,7 @@ Garantir que os monitoradores de segurança estejam acordados e atentos entre 00
 
 - `Python 3`
 - `Tkinter` (interface gráfica)
-- `Playsound` (alerta sonoro)
+- `Pygame` (alerta sonoro)
 - `CSV` (relatórios)
 - `Yagmail` (envio de e-mail)
 
