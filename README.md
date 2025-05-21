@@ -17,3 +17,10 @@ Este projeto é um sistema de verificação de atenção para monitores noturnos
 - Registro automático de data, hora, nome, resposta e tempo de reação
 - Geração de relatório `.csv`
 - Envio automático de e-mail com o resumo e anexo
+
+---
+## 🖼️ Preview do Sistema
+
+<img src="print.jpg" alt="" width="400"/>
+<img src="print2.jpg" alt="" width="400"/>
+<img src="print3.jpg" alt="" width="400"/>
