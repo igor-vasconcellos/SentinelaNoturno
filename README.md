@@ -20,13 +20,4 @@ O sistema visa evitar que os funcionários adormeçam durante o turno, garantind
 - Geração de relatório `.csv`
 - Envio automático de e-mail com o resumo e anexo
 
----
-## 🖼️ Preview do Sistema
 
-<p align="center">
-  <img src="print.jpg" width="400"/>
-  <img src="print2.jpg" width="400"/>
-</p>
-<p align="center">
-  <img src="print3.jpg" width="400"/>
-</p>
