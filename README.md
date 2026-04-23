@@ -1,23 +1,65 @@
-# 🛡️ Sistema de Monitoramento Noturno - Protector Serviço Segurança 
+# SentinelaNoturno
 
-Este projeto foi desenvolvido para a Protector Serviços de Segurança com o objetivo de garantir a vigilância ativa dos operadores de monitoramento noturno. A aplicação emite alertas sonoros em intervalos aleatórios entre 00h00 e 06h00, forçando uma resposta rápida por parte do colaborador.
+SentinelaNoturno é um sistema de monitoramento com interface gráfica desenvolvido como freelancer para a empresa Protector Sistemas. O projeto foi criado para atuar como uma solução full-stack de vigilância noturna, com alertas sonoros, verificação de presença e envio automático de relatórios.
 
-O sistema visa evitar que os funcionários adormeçam durante o turno, garantindo que os profissionais responsáveis pelo monitoramento das câmeras estejam atentos e em plena atividade durante toda a madrugada.
+## Sobre o projeto
 
-## 🔧 Tecnologias utilizadas
+O sistema monitora a atividade do operador durante o turno noturno e gera avisos aleatórios para garantir que a equipe permaneça atenta. Ele combina interface visual, áudio de alerta e recursos de envio de e-mail para entregar um fluxo de trabalho completo e confiável.
 
-- `Python 3.x`
-- `tkinter` - Interface gráfica
-- `pygame` - Alarme sonoro
-- `yagmail` - Envio automático de e-mails
-- `csv` - Registro de relatórios
+## Funcionalidades principais
 
-## ✅ Funcionalidades
+- Monitoramento em tempo real da atividade do operador
+- Alertas sonoros que exigem resposta rápida
+- Interface gráfica para interação e confirmação de presença
+- Registro de respostas e tempo de reação
+- Geração de relatórios em CSV
+- Envio automático de e-mails com resumo e anexos
 
-- Alarme sonoro tocando até o monitor responder
-- Interface gráfica com pergunta de verificação
-- Registro automático de data, hora, nome, resposta e tempo de reação
-- Geração de relatório `.csv`
-- Envio automático de e-mail com o resumo e anexo
+## Como instalar
 
+### Requisitos
 
+- Python 3.12
+- No Windows: marque a opção **Add Python to PATH** durante a instalação do Python
+- Acesso à internet para instalar dependências
+
+### Instalação no Windows
+
+1. Baixe e instale o Python 3.12 a partir de https://www.python.org/downloads/
+2. Durante a instalação, marque **Add Python to PATH** para garantir que o Python esteja disponível no prompt de comando
+3. Abra o `PowerShell` ou `Prompt de Comando`
+4. Execute:
+   ```powershell
+   python -m pip install --upgrade pip
+   python -m pip install Pillow pygame yagmail
+   ```
+5. Execute o projeto com:
+   ```powershell
+   python main.py
+   ```
+
+### Instalação no Linux
+
+1. Instale o Python 3.12 se ainda não estiver disponível no sistema
+2. Abra o terminal
+3. Execute:
+   ```bash
+   python3.12 -m pip install --upgrade pip
+   python3.12 -m pip install Pillow pygame yagmail
+   ```
+4. Inicie o projeto com:
+   ```bash
+   python3.12 main.py
+   ```
+
+## Dependências principais
+
+- `Pillow` - manipulação de imagens e recursos gráficos
+- `pygame` - reprodução de sons de alerta
+- `yagmail` - envio de e-mails automáticos
+
+## Observações
+
+- Certifique-se de que o Python 3.12 esteja corretamente instalado e configurado no PATH
+- Caso o projeto use outros módulos, instale-os via `pip` conforme necessário
+- Ajuste as configurações de e-mail no código antes de executar o envio automático
